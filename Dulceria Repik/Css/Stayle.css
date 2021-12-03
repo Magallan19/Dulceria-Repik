@@ -1,0 +1,468 @@
+body {
+    background: rgb(15, 8, 149);
+}
+
+.input1 {
+    border-radius: 5px;
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+    background: white;
+    outline: none;
+    border: none;
+}
+
+.input1:focus {
+    background: white;
+    outline: none;
+}
+
+.icono {
+    background: white;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.marca {
+    background: #790cd8;
+    color: white;
+    font-size: 25px;
+    width: 140px;
+    height: auto;
+    margin-top: 10px;
+}
+
+.ofertas {
+    background: rgb(162, 171, 8);
+    color: white;
+    font-size: 25px;
+    width: 140px;
+    margin-top: 10px;
+    height: auto;
+}
+
+.Crea {
+    background: rgb(94, 191, 10);
+    color: white;
+    font-size: 25px;
+    width: 170px;
+    height: auto;
+    margin-top: 10px;
+}
+
+
+/* Carousel */
+
+.ContenedorPrincipal {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.izquieda,
+.derecha {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+    font-size: 40px;
+    height: 30%;
+    top: calc(50% - 15%);
+    width: 50px;
+    color: white;
+    cursor: pointer;
+    transition: .2s ease all;
+    z-index: 10;
+    line-height: 40px;
+    border: none;
+    outline: none;
+}
+
+.izquieda:focus,
+.derecha:focus {
+    outline: none;
+}
+
+.izquieda {
+    left: 0px;
+}
+
+.derecha {
+    right: 0px;
+}
+
+.izquieda:hover,
+.derecha:hover {
+    background: rgba(0, 0, 0, 0.9);
+}
+
+.contenedorcarousel {
+    width: 100%;
+    padding: 20px 0px;
+    scroll-behavior: smooth;
+    overflow: hidden;
+}
+
+.carousel {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.carousel img {
+    transition: .3s ease all;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    width: 370px;
+    height: 207px;
+}
+
+.carousel img:hover {
+    transform: scale(1.2);
+    transform-origin: center;
+    z-index: 5;
+}
+
+
+/* Carousel */
+
+.Contactanos {
+    background: #05bae3;
+    color: white;
+    font-size: 25px;
+    width: 160px;
+    height: auto;
+    margin-top: 10px;
+}
+
+.Carrito {
+    background: #a20448;
+    color: white;
+    font-size: 25px;
+    width: 160px;
+    height: auto;
+    margin-top: 10px;
+}
+
+.Sucursales {
+    background: #056d03;
+    color: white;
+    font-size: 25px;
+    width: 160px;
+    height: auto;
+    margin-top: 10px;
+}
+
+.Oferta:hover,
+.inicio:hover,
+.ofertas:hover,
+.Crea:hover,
+.marca:hover,
+.Contactanos:hover,
+.Carrito:hover,
+.Sucursales:hover,
+.marca1:hover {
+    box-shadow: 5px 5px 2px rgba(0, 0, 0, 0.9);
+    color: white;
+}
+
+.Ajuste {
+    height: calc(100vh - 272px);
+}
+
+.Pie {
+    align-items: center;
+    background: #0e76b7;
+}
+
+.font {
+    color: black;
+    font-size: 25px;
+    margin-right: -20px;
+}
+
+.font1 {
+    color: black;
+    font-size: 20px;
+}
+
+.iconos {
+    transition: .3s ease all;
+}
+
+.iconos:hover {
+    transform: scale(1.4);
+    transform-origin: center;
+}
+
+.encabezado {
+    background: #009dff;
+}
+
+.btn-info {
+    margin: 20px 0px;
+    display: block;
+}
+
+.marca1 {
+    background: #790cd8;
+    color: white;
+    font-size: 25px;
+    width: 140px;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.Imgmarcas {
+    transition: .4s ease all;
+}
+
+.Imgmarcas:hover {
+    transform: scale(1.2);
+    transform-origin: center;
+    cursor: pointer;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.9);
+}
+
+.ListaA {
+    transition: .4s ease all;
+    font-size: 20px;
+}
+
+.ListaA:hover {
+    box-shadow: 5px 5px 2px rgba(0, 0, 0, 0.9);
+}
+
+.inicio {
+    background: #790cd8;
+    color: white;
+    font-size: 25px;
+    width: 140px;
+    height: auto;
+    margin-top: -10px;
+}
+
+.CtnPrecioCarrito {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-left: 1%;
+    font-size: 20px;
+    color: white;
+}
+
+.CtnPrecio,
+.CtnCarrito {
+    text-align: center;
+    margin: 15px 20px;
+    background: black;
+    width: 50px;
+    height: 30px;
+    border-radius: 5px;
+    transition: .4s ease all;
+}
+
+.Precio {
+    font-size: 20px;
+    color: white;
+}
+
+.CtnCarrito:hover {
+    transform: scale(1.2);
+    transform-origin: center;
+    cursor: pointer;
+}
+
+.inpu2 {
+    width: 200px;
+}
+
+.Ajuste2 {
+    height: calc(100vh - 70px);
+}
+
+.Ajuste3 {
+    height: calc(100vh - 70px);
+}
+
+.Carrito1 {
+    font-size: 100px;
+    text-align: center;
+    margin-right: 10px;
+    width: 250px;
+    height: auto;
+    transition: .3s ease all;
+}
+
+.Carrito1:hover {
+    transform: scale(1.2);
+    transform-origin: center;
+}
+
+h3 {
+    color: white;
+}
+
+.Sucursales {
+    background: #0cd81a;
+    color: white;
+    font-size: 25px;
+    width: 160px;
+    height: auto;
+    margin-top: 10px;
+}
+
+.CtnSucursales {
+    color: white;
+    background: mediumturquoise;
+    margin-left: 23%;
+    width: 150px;
+    height: 30px;
+    margin-top: 10px;
+}
+
+.Ajuste4 {
+    height: calc(100vh - 164px);
+}
+
+.Nombre {
+    background: rgb(254, 0, 216);
+    text-align: center;
+    color: white;
+}
+
+.contacto {
+    text-align: center;
+    color: white;
+}
+
+.contacto h2 {
+    font-size: 22px;
+    padding: 10px;
+    border: 3px solid rgb(254, 0, 216);
+}
+
+.contacto .color {
+    border: 3px solid cyan;
+}
+
+.Cincio {
+    margin-left: 210px;
+}
+
+.Ajuste5 {
+    height: calc(100vh - 70px);
+}
+
+.CtnOfertas p {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    background: darkorchid;
+    width: 50px;
+    border: 1px solid rgb(0, 123, 255);
+    margin-bottom: -10px;
+    z-index: 2;
+}
+
+.CtnOfertas h4 {
+    padding: 0px;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    background: rgb(0, 0, 0, 0.9);
+    padding: 16px;
+    height: 60px;
+    z-index: 1;
+    margin-top: 10px;
+}
+
+.CtnOfertas {
+    margin: 23px 0px;
+}
+
+.Ofertaimg {
+    margin-top: 20px;
+}
+
+.Ofertaimg1 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.Ofertaimg2 {
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.Oferta {
+    background: #b1b10f;
+    color: white;
+    font-size: 25px;
+    width: 140px;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.CtnDulces {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box {
+    margin: 19px;
+}
+
+.Cantidad {
+    width: 50px !important;
+}
+
+.subtotal {
+    color: white;
+}
+
+#total {
+    color: white;
+}
+
+.h4falso a {
+    color: white !important;
+    transition: .3s ease all;
+    display: block;
+}
+
+.h4falso a:hover {
+    color: white !important;
+    text-decoration: none;
+    transform: scale(1.2);
+    transform-origin: center;
+    text-shadow: rgba(0, 0, 0, 0.501) 3px 4px;
+}
+
+.laS {
+    font-size: 20px;
+    color: white;
+}
+
+.Compra {
+    color: white;
+    font-size: 20px;
+}
+
+.Compra:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.SubC {
+    width: 120px;
+    border-radius: 10px;
+    transition: .3s ease all;
+    background: cyan;
+    outline: none;
+    border: 0px;
+}
+
+.SubC:hover {
+    transform: scale(1.2);
+    transform-origin: center;
+    box-shadow: rgba(0, 0, 0, 0.549) 5px 5px 1px;
+}
